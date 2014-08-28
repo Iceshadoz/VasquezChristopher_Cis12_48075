@@ -9,13 +9,11 @@ and open the template in the editor.
 lang="en">
     <head>
         <meta  http-equiv="content-type" content="text/html; charset="UTF-8" />
-        <title>Using Echo</title>
+        <title>Comments</title>
     </head>
     <body>
-        <!-- Script 1.2 - first.php -->
         
         <?php
-        // put your code here
         
     # Script 1.4 - comments.php
     # Created August 28, 2014

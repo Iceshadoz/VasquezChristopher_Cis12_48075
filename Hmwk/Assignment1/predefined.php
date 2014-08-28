@@ -14,6 +14,7 @@ lang="en">
     <body>
         
         <?php #Script 1.5 - predefined.php
+        
         // Create a shorthand version of the varible names:
         $file = $_server['script_filename'];
         $user = $_server ['http_user_agent'];

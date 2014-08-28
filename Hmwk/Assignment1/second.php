@@ -12,11 +12,11 @@ lang="en">
         <title>Using Echo</title>
     </head>
     <body>
-        <!-- Script 1.2 - first.php -->
+       
         
     <p>This is standard HTML.</p>
         
-        <?php
+        <?php # Script 1.3 second.php
         // put your code here
         echo 'this was generated using PHP!';
    
