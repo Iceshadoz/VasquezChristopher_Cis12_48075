@@ -9,12 +9,15 @@ and open the template in the editor.
 lang="en">
     <head>
         <meta  http-equiv="content-type" content="text/html; charset="UTF-8" />
-        <title>Page Title</title>
+        <title>Using Echo</title>
     </head>
     <body>
         <!-- Script 1.2 - first.php -->
         
+    <p>This is standard HTML.</p>
+        
         <?php
+        echo 'this was generated using PHP!'
         // put your code here
         ?>
     </body>
