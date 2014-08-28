@@ -14,10 +14,7 @@ lang="en">
     <body>
         <!-- Script 1.2 - first.php -->
         
-    <p>This is standard HTML.</p>
-        
         <?php
-        echo 'this was generated using PHP!';
         // put your code here
         
     # Script 1.4 - comments.php
