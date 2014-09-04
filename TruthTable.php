@@ -80,6 +80,7 @@ and open the template in the editor.
             <tr>
    <?php
             $x=false;
+            $y=true;
             echo "<td>" . ($x?"T":"F")."</td>";
             echo "<td>" . ($y?"T":"F")."</td>";
             echo "<td>" . (!$x?"T":"F")."</td>";
