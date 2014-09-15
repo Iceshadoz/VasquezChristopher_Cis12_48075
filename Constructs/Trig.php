@@ -23,6 +23,8 @@ and open the template in the editor.
         $angStrt=$_GET ['angStrt'];
         $angEnd=$_GET ['angEnd'];
         $angInc=$_GET ['angInc'];
+         ?>
+        
         <table width="200" border="1">
             <tr>
                 <th>Radians</th>
@@ -33,8 +35,8 @@ and open the template in the editor.
             </tr>
      <?php
         //For - Loop
-        echo"<tr>";
-        for($angle=$angStrt;$angle<=$angEnd;$angle+=angInc) {
+       
+        for($angle=$angStrt;$angle<=$angEnd;$angle+=$angInc) {
             echo "<tr>";
             echo "<td>$angle</td>" ;
             //Calculate
@@ -47,8 +49,6 @@ and open the template in the editor.
             echo "<td>$sine</td>";
             echo "<td>$cosine</td>";
             echo "<td>$tangent</td>";
-            
-            echo "</tr>";
             
         echo "</tr>";
             
