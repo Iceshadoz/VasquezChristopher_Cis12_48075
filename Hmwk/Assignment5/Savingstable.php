@@ -48,8 +48,8 @@ and open the template in the editor.
 
         for($i=1; $i<$rows;$i++){
             $table[$i][0] = $i;
-            $table[$i][1] = number_format(($row2 * $deposit)*$i,2);
-            $table[$i][2] = number_format(($row3 * $deposit)*$i,2);
+            $table[$i][1] = number_format(($row2 +1) * $deposit+ $deposit)*$i,2);
+            $table[$i][2] = number_format(($row3 * $deposit +$deposit)*$i,2);
             $table[$i][3] = number_format(($row4 * $deposit)*$i,2);
             $table[$i][4] = number_format(($row5 * $deposit)*$i,2);
             $table[$i][5] = number_format(($row6 * $deposit)*$i,2);
